@@ -1,0 +1,143 @@
+* body {
+  margin: 0;
+  padding: 0;
+  background-color:rgb(229, 226, 226);
+  font-family:Arial, Helvetica, sans-serif;
+}
+nav{
+  background-color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+li {
+  float: left;
+}
+li a {
+  cursor: pointer;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#lalafo{
+  height: 40px;
+  width: 100px;
+}
+
+.fa-bars{
+  position: absolute;
+  font-size: 25px;
+  padding: 12px 0 0 30px;
+  color: #bdbdbd;
+
+}
+.for-business{
+  color:dimgray;
+  font-size: 18px;
+  margin: 14px 0 0 70px;
+
+}
+#heart{
+  position: relative;
+  font-size: 25px;
+  margin: 12px 0 0 270px;
+  color: #bdbdbd;
+}
+.login{
+  color:dimgray;
+  font-size: 18px;
+  margin: 14px 0 0 30px;
+
+}
+.ads{
+  background-color:deeppink ;
+  color: white;
+  margin: 17px 0 0 30px;
+  height: 40px;
+  width: 140px;
+  border: transparent;
+  border-radius: 18px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.card {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 600px;
+  height: 200px;
+  border: 1px solid gainsboro;
+  border-radius: 7px;
+  background-color: white;
+}
+.title {
+  padding-top: 30px;
+  margin-left: 220px;
+  color:  #0878e2;
+  display: block;
+  font-size: 24px;
+  font-weight: 600;
+}
+.price {
+  margin-left: 220px;
+  padding-top: 20px;
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+}
+.card > img {
+  float: left;
+  margin-top: -97px;
+  width: 200px;
+  height: 200px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  object-fit: cover;
+  transition: all 0.3s;
+  transform: scale(1);
+}
+.card > img:hover{
+  transform: scale(1.1);
+}
+.call{
+  color:limegreen;
+  font-weight: 900;
+  font-size: 20px;
+  float: right;
+  margin-top: 60px;
+  margin-right: 10px;
+}
+.category{
+  float: left;
+  color:darkgray;
+  margin-top: -90px;
+  margin-left: 20px;
+}
+.location{
+  float: left;
+  color:darkgray;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+.date{
+  float: left;
+  color:darkgray;
+  margin-top: 60px;
+  margin-left: 10px;
+}
+.fa-envelope{
+  position: absolute;
+  margin-left: 310px;
+  margin-top: -70px;
+
+}
+.fa-heart{
+  position: absolute;
+  margin-left: 355px;
+  margin-top: -70px;
+}
